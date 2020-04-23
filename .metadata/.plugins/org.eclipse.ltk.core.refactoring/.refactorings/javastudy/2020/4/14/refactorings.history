@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;coffeeshop.test.대통령&apos; to &apos;SingleTonEx01&apos;&#x0D;&#x0A;- Original project: &apos;javastudy&apos;&#x0D;&#x0A;- Original element: &apos;coffeeshop.test.대통령&apos;&#x0D;&#x0A;- Renamed element: &apos;coffeeshop.test.SingleTonEx01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;대통령&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;coffeeshop.test{대통령.java[대통령" matchStrategy="1" name="SingleTonEx01" qualified="false" references="true" similarDeclarations="false" stamp="1585895059367" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+package lwm;
+
+import java.util.HashMap;
+
+public class JavaTest {
+	public static void main(String[] args) {
+		HashMap<String, String> a = new HashMap<>();
+		a.put("key", "value");
+		for (String string : a) {
+			System.out.println(string);
+		}
+	}
+	
+
+}

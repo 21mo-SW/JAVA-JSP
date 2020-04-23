@@ -1,0 +1,23 @@
+package lwm;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class JavaTest {
+	public static void main(String[] args) {
+//		HashMap<String, String> a = new HashMap<>();
+//		a.put("key", "value");
+//		for (String string : a) {
+//			System.out.println(string);
+//		}
+		
+		ArrayList<String> b = new ArrayList<>();
+		b.add("°¡");
+		
+		for (String string : b) {
+			System.out.println(string);
+		}
+	}
+	
+
+}
