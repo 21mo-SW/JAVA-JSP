@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="상품재고새로고침버튼"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="불고기"/>
-			<item value="갈비"/>
-			<item value="라면"/>
-			<item value="Food"/>
-			<item value="u2"/>
-			<item value="if(false) {"/>
-			<item value=""/>
+			<item value="상품재고새로고침버튼"/>
+			<item value="상품재고라벨"/>
+			<item value="판매스크롤패인"/>
+			<item value="상단유통"/>
+			<item value="판매관리패널"/>
+			<item value="메뉴추가버튼"/>
+			<item value="Menu"/>
+			<item value="cardP"/>
+			<item value="인사검색창"/>
+			<item value="전체"/>
+			<item value="검색"/>
+			<item value="직원"/>
+			<item value="tableModel5"/>
+			<item value="tableModel6"/>
+			<item value="orderTable"/>
 		</list>
 		<list key="replacehistory">
 			<item value="불고기1"/>
@@ -24,8 +32,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="343"/>
-		<item key="DIALOG_Y_ORIGIN" value="263"/>
+		<item key="DIALOG_X_ORIGIN" value="1380"/>
+		<item key="DIALOG_Y_ORIGIN" value="152"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

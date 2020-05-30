@@ -1,21 +1,20 @@
 package lwm;
 
+class Power {
+	private int kick;
+	private int punch;
+	
+	public Power(int kick, int punch) {
+		this.kick = kick;
+		this.punch = punch;
+		System.out.println(kick);
+	}
+}
+
 
 public class JavaTest {
-	
-	static int a = 10;
-	
-	static void test() {
-		int a  = 5;
-		System.out.println(a);
-	}
-	
-	
 	public static void main(String[] args) {
-		System.out.println(a);
-		
+		Power robot = new Power(10, 20);
+		}
 	}
-		
 	
-	
-}
