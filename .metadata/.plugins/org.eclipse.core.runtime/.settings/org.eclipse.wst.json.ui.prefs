@@ -8,3 +8,4 @@ VALUE_NUMBER=\#cb4f40 | null | false | false | false | false
 VALUE_STRING=\#ffc600 | null | true | true | false | false
 eclipse.preferences.version=1
 overriddenByCSS=,COLON,COMMA,CURLY_BRACE,OBJECT_KEY,VALUE_BOOLEAN,VALUE_NULL,VALUE_NUMBER,VALUE_STRING,
+suggestionStrategy=Lax

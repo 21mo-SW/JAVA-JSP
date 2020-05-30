@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="729"/>
+		<item key="DIALOG_Y_ORIGIN" value="403"/>
+	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+<<<<<<< HEAD
 		<item key="selection" value="상품재고새로고침버튼"/>
+=======
+		<item key="selection" value="dailyTotalSalesTF"/>
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+<<<<<<< HEAD
 			<item value="상품재고새로고침버튼"/>
 			<item value="상품재고라벨"/>
 			<item value="판매스크롤패인"/>
@@ -23,18 +32,34 @@
 			<item value="tableModel5"/>
 			<item value="tableModel6"/>
 			<item value="orderTable"/>
+=======
+			<item value="dailyTotalSalesTF"/>
+			<item value="인사검색창"/>
+			<item value="monthSalesLB"/>
+			<item value="원재료"/>
+			<item value="ERP"/>
+			<item value="TextField"/>
+			<item value="dailyTotalSales"/>
+			<item value="private"/>
+			<item value="invenName"/>
+			<item value="javax.swing.JMenuBar"/>
+			<item value="makerow"/>
+			<item value=""/>
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		</list>
 		<list key="replacehistory">
-			<item value="불고기1"/>
-			<item value="갈비1"/>
-			<item value="라면1"/>
-			<item value="Food1"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+<<<<<<< HEAD
 		<item key="DIALOG_X_ORIGIN" value="1380"/>
 		<item key="DIALOG_Y_ORIGIN" value="152"/>
 		<item key="DIALOG_WIDTH" value="288"/>
+=======
+		<item key="DIALOG_X_ORIGIN" value="634"/>
+		<item key="DIALOG_Y_ORIGIN" value="263"/>
+		<item key="DIALOG_WIDTH" value="271"/>
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>

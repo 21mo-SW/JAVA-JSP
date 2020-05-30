@@ -1,17 +1,26 @@
+<<<<<<< HEAD
 applyBackground=true
 approved.defs.file.last.changed.time=1589387624000
 codemix.dont.show.upsell.until=1587537448883
 configurationInstallLocation=/C\:/tools/sts-4.5.1.RELEASE/
+=======
+applyBackground=false
+approved.defs.file.last.changed.time=1589387624000
+codemix.dont.show.upsell.until=1587303456649
+configurationInstallLocation=/C\:/Users/21mo/Desktop/developset/tools/sts-4.5.1.RELEASE/
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 eclipse.preferences.version=1
-elearning.dont.show.until=1588576070826
+elearning.dont.show.until=1588344449293
 iconcolormode=primary
-iconreplacement=true
+iconreplacement=false
 includeThemingInOomph=false
+<<<<<<< HEAD
 last.download.attempt.time=1590809187559
 lastConfiguration=1590809180036
+=======
+last.download.attempt.time=1590334038384
+lastConfiguration=1590334026112
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Dark Gray
-workbench.theme.custom.hue=205
-workbench.theme.custom.lum=0.03
-workbench.theme.custom.sat=10

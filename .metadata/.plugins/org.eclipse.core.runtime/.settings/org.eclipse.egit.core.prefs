@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 GitRepositoriesView.GitDirectories=C\:\\Users\\admin\\Desktop\\\uAD1C\uCC2E\uC740 \uC608\uC81C\uC18C\uC2A4\\.git;C\:\\src\\javawork\\.git;C\:\\Users\\admin\\Desktop\\ERP-project\\.git;C\:\\Users\\admin\\Desktop\\ERPproject\\.git;
 GitRepositoriesView.GitDirectories.relative=C\:\\Users\\admin\\Desktop\\\uAD1C\uCC2E\uC740 \uC608\uC81C\uC18C\uC2A4\\.git;.git;C\:\\Users\\admin\\Desktop\\ERP-project\\.git;C\:\\Users\\admin\\Desktop\\ERPproject\\.git;
+=======
+GitRepositoriesView.GitDirectories=C\:\\Users\\21mo\\Desktop\\1st project\\.git;C\:\\Users\\21mo\\Desktop\\developset\\src\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\21mo\\Desktop\\1st project\\.git;.git;
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
