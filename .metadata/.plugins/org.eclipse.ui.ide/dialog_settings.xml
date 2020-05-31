@@ -52,13 +52,43 @@
 		<item value="org.sonatype.m2e.egit.feature:0.15.1.201806191431"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.4.201905300046"/>
 	</list>
+<<<<<<< HEAD
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+=======
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+<<<<<<< HEAD
 			<item value="C:\Users\21mo\Desktop\source\JAVA src\quizs"/>
+=======
+<<<<<<< HEAD
+			<item value="C:\Users\admin\Desktop\sat200523\sat200523"/>
+			<item value="C:\Users\admin\Desktop\ERPproject test"/>
+			<item value="C:\Users\admin\Desktop\ERPproject\ERPproject"/>
+			<item value="C:\Users\admin\Desktop\괜찮은 예제소스\JSP\testDB"/>
+			<item value="C:\Users\admin\Desktop\괜찮은 예제소스\AjaxEx(JSON)\testDB"/>
+			<item value="C:\src\javawork\address"/>
+			<item value="C:\Users\admin\Desktop\test\ERPproject-merge"/>
+			<item value="C:\src\javawork\coolsms"/>
+			<item value="C:\Users\admin\Desktop\ERPproject v0.05"/>
+			<item value="C:\Users\admin\Desktop\5.22-test\5.22-test\ERPproject2"/>
+			<item value="C:\Users\admin\Desktop\ERP-project\ERPproject"/>
+			<item value="C:\src\javawork\MovieTheater"/>
+			<item value="C:\src\javawork\FlightReservationSwing"/>
+			<item value="C:\src\javawork\FlightReservationSwing_05_06"/>
+			<item value="C:\src\javawork\ERPproject"/>
+			<item value="C:\src\javawork\ERPsystem"/>
+=======
+>>>>>>> 6af85b761eaa5b3a630df02f80f75c20815a013d
 			<item value="C:\Users\21mo\Desktop\developset\src\brickBracker"/>
 			<item value="C:\Users\21mo\Desktop\1st project\ERPproject"/>
 			<item value="C:\Users\21mo\Desktop\developset\src\ERPproject"/>
@@ -82,13 +112,23 @@
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		</list>
 	</section>
 	<section name="CleanDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="710"/>
 		<item key="DIALOG_Y_ORIGIN" value="261"/>
 		<item key="DIALOG_WIDTH" value="500"/>
+<<<<<<< HEAD
+		<item key="DIALOG_HEIGHT" value="467"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="BUILD_NOW" value="true"/>
+		<item key="BUILD_ALL" value="true"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+=======
 		<item key="DIALOG_HEIGHT" value="389"/>
 		<item key="TOGGLE_SELECTED" value="true"/>
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 	</section>
 </section>

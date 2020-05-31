@@ -2,11 +2,11 @@
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.Connection"%>
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="UTF-8"%>
 <%
 	Class.forName("oracle.jdbc.driver.OracleDriver");
-	String url="jdbc:oracle:thin:@loaclhost:1521:XE";
-	Connection dbconn=DriverManager.getConnection(url, "c##madang", "c##madang");
+	String url="jdbc:oracle:thin:@localhost:1521:XE";
+	Connection dbconn=DriverManager.getConnection(url,"c##madang","c##madang");
 	Statement stmt = dbconn.createStatement();
 	String bookid=request.getParameter("bookid");
 	ResultSet myResultSet=stmt.executeQuery("SELECT * FROM Book WHERE bookid='"+bookid+"'");
@@ -17,7 +17,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>***Book VIEW **</title>
 </head>
 <body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
@@ -26,7 +26,7 @@
 	<tr>
 	 <td width="150" height="23">
 	 	<p align="center">
-	 	<span style="font-size:9pt;">√• ¡¶ ∏Ò</span></p>
+	 	<span style="font-size:9pt;">Ï±Ö Ï†ú Î™©</span></p>
 	 </td>
 	 <td width="513">
 	 	<p><span style="font-size:9pt;">
@@ -36,7 +36,7 @@
 	<tr>
 	 <td width="150" height="23">
 	 	<p align="center">
-	 	<span style="font-size:9pt;">√‚ ∆« ªÁ</span></p>
+	 	<span style="font-size:9pt;">Ï∂ú Ìåê ÏÇ¨</span></p>
 	 <td width="513">
 	 	<p><span style="font-size:9pt;">
 	 	<%=myResultSet.getString("PUBLISHER")%></span></p>
@@ -45,7 +45,7 @@
 	<tr>
 	 <td width="150" height="23">
 	 	<p align="center">
-	 	<span style="font-size:9pt;">∞° ∞›</span></p>
+	 	<span style="font-size:9pt;">Í∞Ä Í≤©</span></p>
 	 </td>
 	 <td width="513">
 	 	<p><span style="font-size:9pt;">
@@ -58,7 +58,7 @@
 	 <td width="150">
 	 	<p align="right"><span style="font-size:9pt;">
 	 	<a href="booklist.jsp?">
-	 	<font color="black">∏Ò∑œ</font></a></span></p>
+	 	<font color="black">Î™©Î°ù</font></a></span></p>
 	 </td>
 	</tr>
 </table>

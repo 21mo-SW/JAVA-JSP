@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+design.palette.flyout.width=154
+design.structure.flyout.width=339
+=======
 design.palette.flyout.width=151
 design.structure.flyout.width=277
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 eclipse.preferences.version=1

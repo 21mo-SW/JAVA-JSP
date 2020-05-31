@@ -1,8 +1,11 @@
 package sendsms;
 
+<<<<<<< HEAD
+=======
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 import java.awt.event.MouseAdapter;
 
 import java.awt.event.MouseEvent;
@@ -27,15 +30,26 @@ class Send {
 		String api_secret = "DSQRPQQVBOLVLLKZG4W13M1ZTSOYKHS1";
 		Message coolsms = new Message(api_key, api_secret);
 
+<<<<<<< HEAD
+		// 4 params(to, from, type, text) are mandatory. must be filled
+=======
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		HashMap<String, String> params = new HashMap<String, String>();
 		params.put("to", phoneNumber);
 		params.put("from", "01083443909");
 		params.put("type", "SMS");
 		params.put("text", conTents);
+<<<<<<< HEAD
+		params.put("app_version", "test app 1.2"); // application name and version
+
+		try {
+			JSONObject obj = (JSONObject) coolsms.send(params); // obj는 데이터를 잘받앗는지 응답해주는것을 담은 변수
+=======
 		params.put("app_version", "test app 1.2");
 		
 		try {
 			JSONObject obj = (JSONObject) coolsms.send(params);
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 			System.out.println(obj.toString());
 		} catch (CoolsmsException e) {
 			System.out.println(e.getMessage());
@@ -50,10 +64,18 @@ public class SmsApp extends JFrame {
 	private JButton jb;
 	private JLabel jl1;
 	private JLabel jl2;
+<<<<<<< HEAD
+	private JFrame fm;
+
+	public SmsApp() {
+		getContentPane().setLayout(null);
+
+=======
 
 	public SmsApp() {
 		getContentPane().setLayout(null);
 		
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		tf = new JTextField();
 		tf.setBounds(90, 46, 191, 21);
 		getContentPane().add(tf);
@@ -71,6 +93,10 @@ public class SmsApp extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				new Send(tf.getText(), ta.getText());
 			}
+<<<<<<< HEAD
+			
+=======
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		});
 
 		jl1 = new JLabel("수신번호");
@@ -83,6 +109,10 @@ public class SmsApp extends JFrame {
 
 		setTitle("SMS발송 Program");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+<<<<<<< HEAD
+		
+=======
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 		setSize(500, 300);
 		setVisible(true);
 	}
@@ -90,4 +120,8 @@ public class SmsApp extends JFrame {
 	public static void main(String[] args) {
 		new SmsApp();
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a

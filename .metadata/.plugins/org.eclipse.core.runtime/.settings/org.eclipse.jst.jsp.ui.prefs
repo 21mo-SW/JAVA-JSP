@@ -3,6 +3,11 @@ commentBorder=\#629755 | null | null | false | null | null
 commentText=\#629755 | null | null | false | null | null
 eclipse.preferences.version=1
 jsp_content=\#D8D8D8 | null | null | null | null | null
+<<<<<<< HEAD
+newFileTemplateName=New JSP File (html 5)
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+=======
+>>>>>>> 22a8a26df6a60d74416eefecfbbe9f245d61659a
 overriddenByCSS=,SCRIPT_AREA_BORDER,commentBorder,commentText,jsp_content,tagAttributeEquals,tagAttributeName,tagAttributeValue,tagBorder,tagName,
 tagAttributeEquals=\#D8D8D8 | null | null | null | null | null
 tagAttributeName=\#CC7832 | null | false | null | null | null

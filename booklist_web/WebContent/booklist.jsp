@@ -4,7 +4,7 @@
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <%
 Class.forName("oracle.jdbc.driver.OracleDriver");
 String url="jdbc:oracle:thin:@localhost:1521:XE";
@@ -15,7 +15,7 @@ ResultSet myResultSet=stmt.executeQuery("SELECT * FROM Book");
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset="EUC-KR">
+<meta http-equiv="content-type" content="text/html; charset="UTF-8">
 <title>** BOOK LIST **</title>
 </head>
 <body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
@@ -47,17 +47,17 @@ if(myResultSet != null){
 			<td width = "150" height="20">
 				<p><span style="font-size:9pt;">
 				<a href="bookview.jsp?bookid=<%=W_BOOKID%>">
-				<font face="µ¸¿òÃ¼" color="black">
+				<font face="ë‹ì›€ì²´" color="black">
 				<%=W_BOOKNAME%></font></a></span></p>
 			</td>
 			<td width="150" height="20">
 				<p align="center"><span style="font-size:9pt;">
-				<font face="µ¸¿òÃ¼"><%=W_PUBLISHER%></font></span></p>
+				<font face="ë‹ì›€ì²´"><%=W_PUBLISHER%></font></span></p>
 			</td>
 			
 			<td width="50" height="20">
 				<p align="center"><span style="font-size:9pt;">
-				<font face="µ¸¿òÃ¼"><%=W_PRICE%></font></span></p>
+				<font face="ë‹ì›€ì²´"><%=W_PRICE%></font></span></p>
 			</td>
 		</tr>
 <% 
@@ -71,7 +71,7 @@ if(myResultSet != null){
 	<tr>
 		<td width="1350">
 			<p align="right"><b><a href="booklist.jsp">
-			<font size="1" face="µ¸¿òÃ¼" color="black">LIST</font></a></b></p>
+			<font size="1" face="ë‹ì›€ì²´" color="black">LIST</font></a></b></p>
 		</td>
 	</tr>
 </table>
