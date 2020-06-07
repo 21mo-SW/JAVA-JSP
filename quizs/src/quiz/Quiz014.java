@@ -13,9 +13,7 @@ public class Quiz014 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		while (num != 0) {
-			for (num = 1; num < 100; num++) {
-				
-			}
+			System.out.println("¾È³çÇÏ¼¼¿ä");
 		}
 		
 	}

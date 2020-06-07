@@ -8,7 +8,7 @@ public class Quiz011 {
 	public static void main(String[] args) {
 		
 		int[] a = new int[20];
-		for (int i = 0; i < 20; i++) {
+		for (int i = 20; i > 0; i--) {
 			 a[i] = i + 1; 
 			 
 			 
